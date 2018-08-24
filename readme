@@ -1,18 +1,25 @@
-现在发现App在后台运行越来越难了。App在华为手机后台死的非常快，之前看网上说华为有白名单，网上也通过改包名的方式来验证了。但是半信半疑的，直到咨询了华为的客服给了一个邮箱 developer@huawei.com，回复的资料 应用加白名单简化流程v0.1(RFC)..pptx，希望其他人再遇到这些问题能少走点弯路。
+ # 关于华为白名单的资料
+-----
+**如果您的应用加入华为白名单，可以通过这个链接找到 [华为客服](http://developer.huawei.com/consumer/cn/wiki/index.php?title=%E5%AE%A2%E6%9C%8D%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)，咨询获取最新资料。**
+
+以下资料是当时我咨询时华为客服发给我的，这个还是希望大家去给客服要最新的
+
+[应用加白名单简化流程v0.1(RFC)..pptx](https://github.com/852172891/Android-/blob/master/%E5%BA%94%E7%94%A8%E5%8A%A0%E7%99%BD%E5%90%8D%E5%8D%95%E7%AE%80%E5%8C%96%E6%B5%81%E7%A8%8Bv0.1(RFC)..pptx)
+
+[应用待机功耗测试标准](https://github.com/852172891/Android-/blob/master/platformRules-0330.xlsx)
+
+下面是：应用加白名单简化流程v0.1(RFC)..pptx中的一张截图
+![](https://github.com/852172891/Android-/blob/master/%E5%8D%8E%E4%B8%BA%E7%99%BD%E5%90%8D%E5%8D%95.png)
+
 
 关于进程保活资料汇总如下：
 -------------
+其实好多方法基本上都不管用了
 
-	其实好多方法基本上都不管用了
-	1.D_clock爱吃葱花 [关于 Android 进程保活，你所需要知道的一切](http://www.jianshu.com/p/63aafe3c12af)
-	2.作者：腾讯——张兴华 [Android进程保活招式大全](https://dev.qq.com/topic/57ac4a0ea374c75371c08ce8)
-	3.[微信Android客户端后台保活经验分享](http://www.infoq.com/cn/articles/wechat-android-background-keep-alive)
+D_clock爱吃葱花 [关于 Android 进程保活，你所需要知道的一切](http://www.jianshu.com/p/63aafe3c12af)
 
-其他资料：
------
+[微信Android客户端后台保活经验分享](http://www.infoq.com/cn/articles/wechat-android-background-keep-alive)
 
-1.[华为客服](http://developer.huawei.com/consumer/cn/wiki/index.php?title=%E5%AE%A2%E6%9C%8D%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F) 资讯开发者联盟就可以
-下面是：应用加白名单简化流程v0.1(RFC)..pptx的一张截图
-![这里写图片描述](http://img.blog.csdn.net/20170531002041357?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2FuZ2JmX2phdmE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-其中要求避免的基本包括了网上进程保活的所有套路。
-2.应用加白名单简化流程v0.1(RFC)..pptx （这个还是希望大家去给客服要最新的）
+
+
+
