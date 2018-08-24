@@ -1,3 +1,4 @@
+Welcome to the Android- wiki!
  # 关于华为白名单的资料
 -----
 **如果您的应用加入华为白名单，可以通过这个链接找到 [华为客服](http://developer.huawei.com/consumer/cn/wiki/index.php?title=%E5%AE%A2%E6%9C%8D%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)，咨询获取最新资料。**
@@ -14,12 +15,13 @@
 
 关于进程保活资料汇总如下：
 -------------
-其实好多方法基本上都不管用了
 
-D_clock爱吃葱花 [关于 Android 进程保活，你所需要知道的一切](http://www.jianshu.com/p/63aafe3c12af)
 
-[微信Android客户端后台保活经验分享](http://www.infoq.com/cn/articles/wechat-android-background-keep-alive)
-
+|类型| 	简介 |	地址
+|:----------|:-----------:|:------:|
+|文章|D_clock爱吃葱花|[关于 Android 进程保活，你所需要知道的一切](http://www.jianshu.com/p/63aafe3c12af)|
+|文章||[微信Android客户端后台保活经验分享](http://www.infoq.com/cn/articles/wechat-android-background-keep-alive)|
+|github开源项目|实现进程保活，暂时实现了双进程守护、JobService检测与拉起、进程死亡AlarmManager定时拉起、 广播监听（网络变化、开机等），同时通过Timer和TimerTask实现心跳服务|[Android端心跳服务与进程保活](https://github.com/sunfusheng/DaemonService)|
 
 
 
