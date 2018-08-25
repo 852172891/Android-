@@ -1,4 +1,3 @@
-Welcome to the Android- wiki!
  # 关于华为白名单的资料
 -----
 **如果您的应用加入华为白名单，可以通过这个链接找到 [华为客服](http://developer.huawei.com/consumer/cn/wiki/index.php?title=%E5%AE%A2%E6%9C%8D%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)，咨询获取最新资料。**
