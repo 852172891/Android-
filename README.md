@@ -22,6 +22,5 @@
 |文章||[微信Android客户端后台保活经验分享](http://www.infoq.com/cn/articles/wechat-android-background-keep-alive)|
 |github开源项目|实现进程保活，暂时实现了双进程守护、JobService检测与拉起、进程死亡AlarmManager定时拉起、 广播监听（网络变化、开机等），同时通过Timer和TimerTask实现心跳服务|[Android端心跳服务与进程保活](https://github.com/sunfusheng/DaemonService)|
 |文章|作者：尼古拉斯_赵四  文章分析了：杀进程原理 值得一看|[Android应用保活方案的另类出路，让你应用长生不老(针对小米手机)](https://blog.csdn.net/jiangwei0910410003/article/details/82558465)|
-
-
+|文章|作者：腾讯手机管家，来自 FreeBuf.COM|[ Android进程保护研究分析报告 ](https://www.freebuf.com/articles/paper/185466.html)|
 
